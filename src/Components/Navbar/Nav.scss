@@ -1,0 +1,149 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  .burger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 50px;
+
+    .link {
+      text-decoration: none;
+      color: #696871;
+      font-weight: 700;
+      font-size: 15px;
+      transition: all 0.2s;
+      padding-bottom: 5px;
+      border-bottom: 1px solid transparent;
+    }
+    .link:hover {
+      color: #19191b;
+      border-bottom: 1px solid #5454d4;
+    }
+
+    .bor {
+      text-decoration: none;
+      color: #19191b;
+      font-weight: 700;
+      font-size: 15px;
+      transition: all 0.2s;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #5454d4;
+    }
+  }
+
+  .start {
+    button {
+      padding: 15px 40px;
+      background-color: #ff7143;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 17px;
+      transition: all 0.2s;
+    }
+    button:hover {
+      background-color: #ed673a;
+      cursor: pointer;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  .nav .burger {
+    width: 40px;
+    height: 40px;
+    display: none;
+    .liner {
+      width: 40px;
+      height: 2px;
+      background-color: #000000;
+    }
+  }
+
+  .logo {
+    background-color: #5454d4;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 50px;
+    .bor {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 15px;
+      transition: all 0.2s;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #5454d4;
+    }
+
+    .link {
+      text-decoration: none;
+      color: #c7c7c7;
+      font-weight: 700;
+      font-size: 15px;
+      transition: all 0.2s;
+      padding-bottom: 5px;
+      border-bottom: 1px solid transparent;
+    }
+    .link:hover {
+      color: #ffffff;
+      border-bottom: 1px solid #5454d4;
+    }
+  }
+
+  .start {
+    button {
+      padding: 15px 40px;
+      background-color: #ff7143;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 17px;
+      transition: all 0.2s;
+    }
+    button:hover {
+      background-color: #ed673a;
+      cursor: pointer;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .nav .menu,
+  .navbar .menu {
+    display: none;
+  }
+  .nav .start button,
+  .navbar .start button {
+    display: none;
+  }
+  .wel-img {
+    display: none;
+  }
+  .navbar .burger {
+    display: block;
+    width: 40px;
+    height: 40px;
+
+    .liner {
+      width: 35px;
+      height: 2px;
+      background-color: #000000;
+    }
+  }
+}

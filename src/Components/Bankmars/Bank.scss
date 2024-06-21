@@ -1,0 +1,138 @@
+.bank {
+  margin-top: 135px;
+  display: grid;
+  gap: 70px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  .bank-cart {
+    text-align: center;
+    padding: 20px;
+
+    .bank-p {
+      color: #19191b;
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    .bank-p2 {
+      color: #696871;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+  }
+}
+.night {
+  display: flex;
+  align-items: center;
+
+  .night-p {
+    color: #19191b;
+    font-weight: 700;
+    font-size: 60px;
+    width: 70%;
+  }
+  .bt {
+    width: 30%;
+    .btns {
+      display: flex;
+      overflow: hidden;
+      border-radius: 10px;
+      width: 250px;
+      height: 55px;
+
+      .but1,
+      .but2 {
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 700;
+      }
+
+      .but1 {
+        background-color: #ed673a;
+        color: #fff;
+      }
+    }
+  }
+}
+.banc-cart2 {
+  color: #fff;
+  background-color: #1d1d49;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 1s;
+
+  .bank-p {
+    color: #ffa200;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: all 1s;
+  }
+
+  .bank-p2 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: all 1s;
+  }
+
+  img {
+    margin-left: 30px;
+  }
+}
+.night-p2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 60px;
+  width: 70%;
+  transition: all 1s;
+}
+.but11 {
+  color: #000000;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+.but22 {
+  background-color: #1d1d49;
+  color: #fff;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+@media (max-width: 800px) {
+  .bank {
+    margin-top: -10px;
+  }
+  .night {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .night-p2,
+  .night .night-p {
+    width: 100%;
+  }
+  .night .bt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .free .free-cont {
+    transform: scale(1.02);
+  }
+}

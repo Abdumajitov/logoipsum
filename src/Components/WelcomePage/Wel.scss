@@ -1,0 +1,119 @@
+.wel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin-top: 100px;
+
+  .wel-text {
+    .wel-p1 {
+      font-weight: 700;
+      font-size: 80px;
+      color: #19191b;
+      line-height: 77px;
+    }
+    .wel-p2 {
+      font-weight: 400;
+      font-size: 20px;
+      color: #696871;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+
+    .wel-btns {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      margin-top: 50px;
+
+      button {
+        padding: 15px 40px;
+        background-color: #5454d4;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 17px;
+        transition: all 0.2s;
+      }
+      button:hover {
+        background-color: #4848d6;
+        cursor: pointer;
+      }
+
+      .strel {
+        border-radius: 50%;
+        border: 1px solid #e7e7e7;
+        padding: 12px 15px;
+        cursor: pointer;
+      }
+      .strel:hover {
+        background-color: #e7e7e7ae;
+      }
+    }
+  }
+}
+.collab {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin-top: 100px;
+  gap: 2rem;
+}
+
+.wel2 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin-top: 100px;
+
+  .wel-text {
+    .wel-p1 {
+      font-weight: 700;
+      font-size: 80px;
+      color: #ff9900;
+      line-height: 77px;
+    }
+    .wel-p2 {
+      font-weight: 400;
+      font-size: 20px;
+      color: hsl(0, 0%, 100%);
+      line-height: 30px;
+      margin-top: 20px;
+    }
+
+    .wel-btns {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      margin-top: 50px;
+
+      button {
+        padding: 15px 40px;
+        background-color: #5454d4;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 17px;
+        transition: all 0.2s;
+      }
+      button:hover {
+        background-color: #4848d6;
+        cursor: pointer;
+      }
+
+      .strel {
+        border-radius: 50%;
+        border: 1px solid #e7e7e7;
+        padding: 12px 15px;
+        cursor: pointer;
+        background-color: #fff;
+      }
+      .strel:hover {
+        background-color: #e7e7e7ae;
+      }
+    }
+  }
+}
