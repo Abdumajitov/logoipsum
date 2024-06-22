@@ -16,11 +16,26 @@ function App() {
   return (
     <div className={lightMod ? "biger" : "big"}>
       <div className="cont">
-        <Nav lightMod={lightMod} />
-        <Wel lightMod={lightMod} />
-        <Sub lightMod={lightMod} />
+        <Nav
+          lightMod={lightMod}
+          handleClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
+        />
+        <Wel
+          lightMod={lightMod}
+          handleClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
+        />
+        <Sub
+          lightMod={lightMod}
+          handleClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
+        />
         <Bank lightMod={lightMod} handleClick={handleClick} />
-        <Free lightMod={lightMod} />
+        <Free />
       </div>
     </div>
   );

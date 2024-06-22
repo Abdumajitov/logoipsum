@@ -14,6 +14,7 @@ const Sub: React.FC<BankProps> = ({ lightMod }) => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
         className={lightMod ? "sub-2" : "sub-1"}
       >
         <div className="sub-1-img">
@@ -33,6 +34,7 @@ const Sub: React.FC<BankProps> = ({ lightMod }) => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
         className={lightMod ? "sub-2" : "sub-1"}
       >
         <div className="sub-1-text">
